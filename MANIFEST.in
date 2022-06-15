@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include epictuning *.css
+recursive-include epictuning *.csv
+recursive-include epictuning *.html
+recursive-include epictuning *.ico
+recursive-include epictuning *.js
+recursive-include epictuning *.json
+recursive-include epictuning *.md
+recursive-include epictuning *.png
+recursive-include epictuning *.py
+recursive-include epictuning *.svg
+recursive-include epictuning *.txt
+recursive-exclude epictuning *.pyc
